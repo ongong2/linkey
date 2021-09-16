@@ -1,0 +1,365 @@
+@charset "utf-8";
+
+
+
+/*햄버거 메뉴 */
+.scroll{
+        height: 1vh;
+        overflow: hidden;
+    }
+#wrap{position: relative;}
+
+
+
+/*메인슬라이더*/
+
+.mainSlider{
+    position: relative;
+    width: 100%;
+    height: 1200px;
+    background: url(../images/main/mainImg.png) no-repeat center center;
+    background-size: cover;
+    font-family: 'NotoSerif';
+}
+
+.sliderTXt{
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+}
+.sliderTXt p{
+    line-height: 65px;
+    font-size: 40px;
+}
+.sliderTxt h2{
+    font-size: 150px;
+    letter-spacing: 45px;
+    font-family: 'NotoSerif';
+    font-weight: 900;
+    margin-bottom: 
+}
+.sliderTxt span{font-weight: 800;}
+
+
+
+/*메인컨텐츠01*/
+
+.mainCon01{
+    padding-top: 550px;
+    position: relative;
+    height: 500px;
+}
+
+.con01TxtWrap{
+    position: absolute;
+    top: 415px;
+    left: 670px;
+}
+.con01Img img{
+    margin: 30px 0;
+    display: block;
+}
+.con01Txt{
+    padding-top: 40px;
+    font-size: 23px;
+    line-height: 40px;
+}
+.con01Txt span{font-weight: 900;}
+
+
+
+
+
+/*메인컨텐츠02*/
+
+.mainCon02{padding-top: 450px;}
+.mainCon02 h2{
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+    font-weight: 900;
+}
+.con02Box{text-align: center;}
+.con02Box p{
+    font-size: 24px;
+    color: #929292;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.con02Box img{
+    display: block;
+    margin: 0 auto;
+}
+.con02Box01, .con02Box02, .con02Box03{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0px 8px 20px #cecece;
+    display: inline-block;
+    margin: 0 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 40px;
+}
+.con02Box01 a, .con02Box02 a, .con02Box03 a{
+    display: block;
+    height: 100%;
+}
+
+.con02Hover01 h4{
+    font-size: 24px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.con02Hover01 span{display: block;}
+
+
+/*호버효과*/
+.con02Box01:hover p{display: none;}
+.con02Box01:hover img{display: none;}
+.con02Box02:hover p{display: none;}
+.con02Box02:hover img{display: none;}
+.con02Box03:hover p{display: none;}
+.con02Box03:hover img{display: none;}
+.con02Hover01, .con02Hover02, .con02Hover03{display: none;}
+.con02Box01:hover .con02Hover01{display: block;}
+.con02Box02:hover .con02Hover02{display: block;}
+.con02Box03:hover .con02Hover03{display: block;}
+
+
+
+
+/*메인컨텐츠03*/
+
+.mainCon03{padding-top: 500px;}
+.mainCon03 h2{
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 150px;
+    font-weight: 900;
+}
+.con02Wrap{text-align: center;}
+
+.con03Txt{
+    display: inline-block;
+    margin-left: 80px;
+}
+.con03Txt h3{
+    font-size: 34px;
+    line-height: 50px;
+    padding-bottom: 20px;
+}
+.con03Txt h3 p{font-weight: 900;}
+.con03Txt span{
+    font-size: 24px;
+    line-height: 40px;
+    display: block;
+}
+
+
+
+/*메인컨텐츠04*/
+
+.mainCon04{
+    text-align: center;
+    margin-top: 200px;
+    background: #EAECF0;
+    height: 900px;
+}
+.con04Txt{padding-top: 120px;}
+.con04Txt h2{
+    font-size: 34px;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+.con04Txt h2 p{font-weight: 900;}
+
+.con04SubTxt{
+    font-size: 24px;
+    line-height: 40px;
+    padding-bottom: 40px;
+}
+.con04SubTxt p span{font-weight: 900;}
+
+.con04List{display: inline-block}
+.con04List li{float: left;}
+
+
+
+
+/*메인컨텐츠05*/
+
+.mainCon05{
+    padding-top: 370px;
+    position: relative;
+}
+
+.con05Bar{
+    margin-right: 600px;
+    text-align: center;
+}
+.con05Bar h2{
+    font-size: 60px;
+    font-weight: 900;
+    padding-bottom: 60px;
+}
+
+.con05Bar>p{
+    padding: 60px 0;
+    font-size: 22px;
+}
+
+.moreBtn{
+    width: 450px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #333;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    transition: background 0.8s;
+}
+.moreBtn a{
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    display: inline-block;
+    transition: color 0.8s;
+}
+
+
+/*호버효과*/
+.moreBtn:hover {background: #333;}
+.moreBtn:hover a{color: #fff;}
+
+.con05List{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+.con05List01 h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+.con05List01 h2 span{font-weight: 700;}
+
+.con05List01 li{padding-top: 40px;}
+.con05List01 li p{
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.con05List01 li span{
+    display: block;
+    font-size: 20px;
+}
+
+.con05List img{padding-top: 50px;}
+
+.con05List02 h2{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    padding-top: 250px;
+}
+.con05List02 h2 span{
+    display: block;
+    font-weight: 700;
+}
+
+.con05List02 li p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.con05List01, .con05List02{margin-left: 130px;}
+
+
+
+
+/*메인컨텐츠06*/
+
+.mainCon06{
+    padding: 500px 0;
+    text-align: center;
+    font-family: "SANDOL";
+}
+.con06Wrap h2{
+    font-size: 100px;
+    font-weight: 900;
+}
+.con06Wrap p{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.con06Icon{padding-top: 50px;}
+.con06Icon span{
+    display: block;
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.appstoreIcon{
+    margin: 0 80px;
+    display: inline-block;
+}
+
+.appstoreIcon img:hover{
+    transform: scale(1.2);
+    transition: transform 0.6s;
+}
+.googlestoreIcon img:hover{
+    transform: scale(1.2);
+    transition: transform 0.6s;
+}
+
+.googlestoreIcon{
+    margin: 0 80px;
+    display: inline-block;
+}
+
+.finish{padding-top: 500px;}
+.finish p{
+    font-family: "NotoSerif";
+    font-size: 30px;
+    line-height: 64px;
+    font-weight: 300;
+    color: #717171;
+}
+.finish p span{font-weight: 800;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

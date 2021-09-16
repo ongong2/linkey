@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/*웹뷰 안보임 처리*/
+.mBtn, .mTxt, .fSns{display: none;}
+
+
+
+/*모바일뷰*/
+@media screen and (max-width:768px){
+    /*리셋*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    
+    /*안보임 처리*/
+    .btn, .linkey, .txt{display: none;}
+
+    /*보임 처리*/
+    
+    .con01{
+        width: 100%;
+        padding: 30% 0;
+    }
+    .mainTxt{
+        font-size: 50px;
+        letter-spacing: 0px;
+    }
+    
+    .mBtn{
+        display: block;
+        text-align: center;
+    }
+    .mBtnWrap{display: inline-block;}
+    
+    .mBtn img{width: 100%;}
+    
+    .seller{
+        padding: 50px 0;
+        margin-left: 7%;
+        width: calc(50% - 7%);
+    }
+    .consumer{
+        padding: 50px 0;
+        margin-right: 7%;
+        width: calc(50% - 7%);
+    }
+    
+    .mTxt{display: block;}
+    .mTxt p{
+        padding-top: 13%;
+        text-align: center;
+        font-family: "SANDOL";
+        font-weight: 200;
+        font-size: 20px;
+        color: #444;
+    }
+    .mTxt p span{font-weight: 700;}
+    
+    
+    #footer{
+        font-size: 14px;
+        padding: 5% 0;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .fWrap{}
+    #footer h3{
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 5%;
+    }
+    #footer h3 img{
+        width: 90px;
+        display: inline-block;
+    }
+    .fTxt{}
+    .fTxt p{}
+    .fTxt span{display: block;}
+    .copy{padding-top: 10px;}
+    
+    
+    
+}

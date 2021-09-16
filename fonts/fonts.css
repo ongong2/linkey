@@ -1,0 +1,287 @@
+
+
+
+/*노토산스*/
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 100;
+    src: local('NotoSans'),
+        url('NotoSans-Thin.woff2') format('woff2'), 
+        url('NotoSans-Thin.woff') format('woff'),
+        url('NotoSans-Thin.ttf') format('truetype'),
+        url('NotoSans-Thin.otf') format('opentype'),
+        url('NotoSans-Thin.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 200;
+    src: local('NotoSans'),
+        url('NotoSans-Light.woff2') format('woff2'), 
+        url('NotoSans-Light.woff') format('woff'),
+        url('NotoSans-Light.ttf') format('truetype'),
+        url('NotoSans-Light.otf') format('opentype'),
+        url('NotoSans-Light.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NotoSans'),
+        url('NotoSans-Regular.woff2') format('woff2'), 
+        url('NotoSans-Regular.woff') format('woff'),
+        url('NotoSans-Regular.ttf') format('truetype'),
+        url('NotoSans-Regular.otf') format('opentype'),
+        url('NotoSans-Regular.eot') format('embedded-opentype');
+}
+
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('NotoSans'),
+        url('NotoSans-midium.woff2') format('woff2'), 
+        url('NotoSans-midium.woff') format('woff'),
+        url('NotoSans-midium.ttf') format('truetype'),
+        url('NotoSans-midium.otf') format('opentype'),
+        url('NotoSans-midium.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NotoSans'),
+        url('NotoSans-Bold.woff2') format('woff2'), 
+        url('NotoSans-Bold.woff') format('woff'),
+        url('NotoSans-Bold.ttf') format('truetype'),
+        url('NotoSans-Bold.otf') format('opentype'),
+        url('NotoSans-Bold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 900;
+    src: local('NotoSans'),
+        url('NotoSans-Black.woff2') format('woff2'), 
+        url('NotoSans-Black.woff') format('woff'),
+        url('NotoSans-Black.ttf') format('truetype'),
+        url('NotoSans-Black.otf') format('opentype'),
+        url('NotoSans-Black.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+/*노토산스 세리프*/
+
+
+@font-face {
+    font-family: 'NotoSerif';
+    font-style: normal;
+    font-weight: 100;
+    src: local('NotoSans'),
+        url('NotoSerifCJKkr-ExtraLight.woff2') format('woff2'), 
+        url('NotoSerifCJKkr-ExtraLight.woff') format('woff'),
+        url('NotoSerifCJKkr-ExtraLight.ttf') format('truetype'),
+        url('NotoSerifCJKkr-ExtraLight.otf') format('opentype'),
+        url('NotoSerifCJKkr-ExtraLight.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    font-style: normal;
+    font-weight: 200;
+    src: local('NotoSans'),
+        url('NotoSerifCJKkr-Light.woff2') format('woff2'), 
+        url('NotoSerifCJKkr-Light.woff') format('woff'),
+        url('NotoSerifCJKkr-Light.ttf') format('truetype'),
+        url('NotoSerifCJKkr-Light.otf') format('opentype'),
+        url('NotoSerifCJKkr-Light.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    font-style: normal;
+    font-weight: 400;
+    src: local('NotoSans'),
+        url('NotoSerifCJKkr-Regular.woff2') format('woff2'), 
+        url('NotoSerifCJKkr-Regular.woff') format('woff'),
+        url('NotoSerifCJKkr-Regular.ttf') format('truetype'),
+        url('NotoSerifCJKkr-Regular.otf') format('opentype'),
+        url('NotoSerifCJKkr-Regular.eot') format('embedded-opentype');
+}
+
+
+@font-face {
+    font-family: 'NotoSerif';
+    font-style: normal;
+    font-weight: 600;
+    src: local('NotoSans'),
+        url('NotoSerifCJKkr-Medium.woff2') format('woff2'), 
+        url('NotoSerifCJKkr-Medium.woff') format('woff'),
+        url('NotoSerifCJKkr-Medium.ttf') format('truetype'),
+        url('NotoSerifCJKkr-Medium.otf') format('opentype'),
+        url('NotoSerifCJKkr-Medium.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    font-style: normal;
+    font-weight: 700;
+    src: local('NotoSans'),
+        url('NotoSerifCJKkr-SemiBold.woff2') format('woff2'), 
+        url('NotoSerifCJKkr-SemiBold.woff') format('woff'),
+        url('NotoSerifCJKkr-SemiBold.ttf') format('truetype'),
+        url('NotoSerifCJKkr-SemiBold.otf') format('opentype'),
+        url('NotoSerifCJKkr-SemiBold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    font-style: normal;
+    font-weight: 800;
+    src: local('NotoSans'),
+        url('NotoSerifCJKkr-Bold.woff2') format('woff2'), 
+        url('NotoSerifCJKkr-Bold.woff') format('woff'),
+        url('NotoSerifCJKkr-Bold.ttf') format('truetype'),
+        url('NotoSerifCJKkr-Bold.otf') format('opentype'),
+        url('NotoSerifCJKkr-Bold.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    font-style: normal;
+    font-weight: 900;
+    src: local('NotoSans'),
+        url('NotoSerifCJKkr-Black.woff2') format('woff2'), 
+        url('NotoSerifCJKkr-Black.woff') format('woff'),
+        url('NotoSerifCJKkr-Black.ttf') format('truetype'),
+        url('NotoSerifCJKkr-Black.otf') format('opentype'),
+        url('NotoSerifCJKkr-Black.eot') format('embedded-opentype');
+}
+
+
+
+
+
+
+/*산돌고딕*/
+
+@font-face {
+    font-family: 'SANDOL';
+    font-style: normal;
+    font-weight: 100;
+    src: local('SANDOL'),
+        url('AppleSDGothicNeoT.ttf') format('woff2'), 
+        url('AppleSDGothicNeoT.woff') format('woff'),
+        url('AppleSDGothicNeoT.ttf') format('truetype'),
+        url('AppleSDGothicNeoT.otf') format('opentype'),
+        url('AppleSDGothicNeoT.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'SANDOL';
+    font-style: normal;
+    font-weight: 200;
+    src: local('SANDOL'),
+        url('AppleSDGothicNeoUL.ttf') format('woff2'), 
+        url('AppleSDGothicNeoUL.woff') format('woff'),
+        url('AppleSDGothicNeoUL.ttf') format('truetype'),
+        url('AppleSDGothicNeoUL.otf') format('opentype'),
+        url('AppleSDGothicNeoUL.eot') format('embedded-opentype');
+}
+
+
+@font-face {
+    font-family: 'SANDOL';
+    font-style: normal;
+    font-weight: 300;
+    src: local('SANDOL'),
+        url('AppleSDGothicNeoL.ttf') format('woff2'), 
+        url('AppleSDGothicNeoL.woff') format('woff'),
+        url('AppleSDGothicNeoL.ttf') format('truetype'),
+        url('AppleSDGothicNeoL.otf') format('opentype'),
+        url('AppleSDGothicNeoL.eot') format('embedded-opentype');
+}
+
+
+@font-face {
+    font-family: 'SANDOL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('SANDOL'),
+        url('AppleSDGothicNeoR.ttf') format('woff2'), 
+        url('AppleSDGothicNeoR.woff') format('woff'),
+        url('AppleSDGothicNeoR.ttf') format('truetype'),
+        url('AppleSDGothicNeoR.otf') format('opentype'),
+        url('AppleSDGothicNeoR.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'SANDOL';
+    font-style: normal;
+    font-weight: 500;
+    src: local('SANDOL'),
+        url('AppleSDGothicNeoM.ttf') format('woff2'), 
+        url('AppleSDGothicNeoM.woff') format('woff'),
+        url('AppleSDGothicNeoM.ttf') format('truetype'),
+        url('AppleSDGothicNeoM.otf') format('opentype'),
+        url('AppleSDGothicNeoM.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'SANDOL';
+    font-style: normal;
+    font-weight: 600;
+    src: local('SANDOL'),
+        url('AppleSDGothicNeoSB.ttf') format('woff2'), 
+        url('AppleSDGothicNeoSB.woff') format('woff'),
+        url('AppleSDGothicNeoSB.ttf') format('truetype'),
+        url('AppleSDGothicNeoSB.otf') format('opentype'),
+        url('AppleSDGothicNeoSB.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'SANDOL';
+    font-style: normal;
+    font-weight: 700;
+    src: local('SANDOL'),
+        url('AppleSDGothicNeoB.ttf') format('woff2'), 
+        url('AppleSDGothicNeoB.woff') format('woff'),
+        url('AppleSDGothicNeoB.ttf') format('truetype'),
+        url('AppleSDGothicNeoB.otf') format('opentype'),
+        url('AppleSDGothicNeoB.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'SANDOL';
+    font-style: normal;
+    font-weight: 800;
+    src: local('SANDOL'),
+        url('AppleSDGothicNeoEB.ttf') format('woff2'), 
+        url('AppleSDGothicNeoEB.woff') format('woff'),
+        url('AppleSDGothicNeoEB.ttf') format('truetype'),
+        url('AppleSDGothicNeoEB.otf') format('opentype'),
+        url('AppleSDGothicNeoEB.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'SANDOL';
+    font-style: normal;
+    font-weight: 800;
+    src: local('SANDOL'),
+        url('AppleSDGothicNeoH.ttf') format('woff2'), 
+        url('AppleSDGothicNeoH.woff') format('woff'),
+        url('AppleSDGothicNeoH.ttf') format('truetype'),
+        url('AppleSDGothicNeoH.otf') format('opentype'),
+        url('AppleSDGothicNeoH.eot') format('embedded-opentype');
+}

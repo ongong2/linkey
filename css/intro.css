@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+
+#header{background: #EAECF0;}
+
+.con01{
+    padding: 200px 0;
+    background: #EAECF0;
+}
+.mainTxt{
+    text-align: center;
+    font-size: 100px;
+    font-family: "NotoSerif";
+    font-weight: 900;
+    letter-spacing: 60px;
+}
+
+.btn{
+    text-align: center;
+    padding: 200px 0;
+    margin-right: 50px;
+}
+.btnWrap{display: inline-block}
+
+.seller{
+    padding: 0 100px;
+    float: left;
+}
+
+.consumer{
+    padding: 0 100px;
+    float: left;
+}
+
+.txt{text-align: center;}
+.txt p{
+    font-family: "SANDOL";
+    font-weight: 200;
+    font-size: 30px;
+    color: #444;
+    letter-spacing: 20px;
+}
+.txt span{font-weight: 700;}

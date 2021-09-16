@@ -1,0 +1,397 @@
+@charset "utf-8";
+
+/*웹뷰 안보임 처리*/
+.panel, .mCon01, .mCon02, .mCon03, .mCon04, .mCon05, .mCon06, .mGnb, .closeIcon, .mSns{
+    display: none;
+}
+
+
+
+
+
+/*모바일뷰*/
+@media screen and (max-width:768px){
+    
+    
+    /*리셋*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    
+    /*안보임 처리*/
+    .gnb, .util, .mainCon01, .mainCon02, .mainCon03, .mainCon04, .mainCon05, .mainCon06, .linkey, .fSns{display: none;}
+    
+    
+    /*보임 처리*/
+    
+    #header{width: 100%;}
+    #header h1{
+        margin-right: 0; 
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    #header h1 img{width: 100px;}
+    #wrap{position: relative;}
+    .mGnb{
+        display: block;
+        z-index: 100000;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        right: 0;
+        border: 0;
+        left: 0;
+        background: #373737;
+        transform: translateX(100%);
+        transition: transform 0.3s;
+    }
+    .mGnb h1{
+        margin-right: 0; 
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .mGnb h1 img{width: 100px;}
+    .mGnbActive {
+        transform: translateX(0%)
+    }
+    .mGnbWrap{
+        text-align: center;
+        padding-top: 140px;
+        font-size: 28px;
+        font-weight: 900;
+    }
+    .mGnbWrap li{padding-bottom: 20px;}
+    .mGnbWrap li a{
+        color: #f3f3f3;
+    }
+    .closeIcon{
+        position: absolute;
+        top: 22px;
+        right: 25px;
+        display: block;
+    }
+    .closeIcon img{width: 30px;}
+    .mSns{
+        margin-top: 100px;
+        display: block;
+    }
+    .mSnsList{
+        text-align: center;
+        width: 100%;
+    }
+    .mSnsList li{
+        padding: 0 15px;
+        display: inline-block;
+    }
+    .mSnsList li img{
+        padding-top: 30px;
+    }
+    
+    .mSns::before{
+        content: "";
+        display: block;
+        width: 80%;
+        height: 1px;
+        background: #fff;
+        margin: 0 auto;
+    }
+    
+    
+    .mainSlider{
+        padding: 45% 0;
+        margin:0;
+        height:auto;
+        background:url(../images/main/mMainImg.png) center center;
+        background-size: cover;
+    }
+    .sliderTXt{
+        position: absolute;
+        top: 80%;
+        left: 8%;
+    }
+    .sliderTXt p{
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .sliderTxt h2{
+        font-size: 60px;
+        letter-spacing: 10px;
+    }
+    
+    .sliderTxt h2::after{
+        content: "";
+        display: block;
+        width: 6px;
+        height: 150px;
+        background: #333;
+        margin-left: 3%;
+        margin-top: 10px;
+    }
+    
+    
+    .panel{
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        display: block;
+    }
+    .panel img{width: 30px;}
+    
+    .mCon01{
+        padding-top: 320px;
+        display: block;
+    }
+    .mCon01Wrap{margin-left: 8%;}
+    .mCon01Img img{width: 75%;}
+    .mCon01Txt{padding-top: 10%;}
+    .mCon01Txt p{
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .mCon01Txt p span{font-weight: 700;}
+    
+    
+    
+    
+    /*컨텐츠*/
+    
+    .mCon02{
+        padding-top: 35%;
+        text-align: center;
+        display: block;
+    }
+    .mCon02 h2{
+        font-size: 45px;
+        font-weight: 900;
+        font-family: "SANDOL";
+    }
+    .mCon02Box p{
+        color: #929292;
+        padding-top: 35px;
+        padding-bottom: 5px;
+        margin-right: 70px;
+    }
+    .mCon02Box img{width: 40px;}
+    .mCon02Box h3{
+        padding-top: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "NotoSerif";
+    }
+    .mCon02Box01, .mCon02Box02, .mCon02Box03{
+        border-radius: 30px;
+        box-shadow: 0px 8px 20px #cecece;
+        width: 200px;
+        height: 200px;
+        margin: 10% auto;
+    }
+    
+    
+    
+    
+    /*컨텐츠03*/
+    
+    .mCon03{
+        text-align: center;
+        display: block;
+        padding-top: 35%;
+    }
+    .mCon03 h2{
+        font-size: 45px;
+        font-weight: 900;
+        font-family: "SANDOL";
+    }
+    
+    .Mcon02Wrap img{
+        width: 35%;
+        padding: 40px 0;
+    }
+
+    .Mcon03Txt h3{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .Mcon03Txt h3 p{
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+    .Mcon03Txt span{
+        font-size: 18px;
+        line-height: 28px;
+        display: block;
+    }
+    
+    
+    
+    
+    /*컨텐츠04*/
+    
+    .mCon04{
+        display: block;
+        text-align: center;
+        margin-top: 20%;
+        padding-top: 20%;
+        background: #EAECF0;
+    }
+    .mCon04Txt h2{
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 3%;
+    }
+    .mCon04Txt h2 p{font-weight: 700;}
+    .mCon04SubTxt p span{font-weight: 700;}
+    .mCon04Iphone img{width: 95%;}
+
+    .iphoneList li{padding-bottom: 30px;}
+    
+    /*컨텐츠05*/
+    
+    .mCon05{
+        padding-top: 20%;
+        position: relative;
+        display: block;
+    }
+    .mCon05>h2{
+        font-family: "SANDOL";
+        text-align: center;
+        font-size: 35px;
+        font-weight: 900;
+    }
+    .quotes{
+        z-index: -8000;
+        position: absolute;
+        left: 10%;
+        top: 7%;
+        width: 20%;
+    }
+
+    .mCon05List h2{text-align: center;}
+    .mCon05List img{width: 75%;}
+    .mCon05List01 li, .mCon05List02 li{text-align: center;}
+    .mCon05List01 h2{
+        padding-top: 12%;
+        font-weight: 400;
+    }
+    .mCon05List01 h2 span{font-weight: 800;}
+    .mCon05List01 li p{
+        padding-bottom: 3%;
+        font-weight: 700;
+    }
+    .mCon05List01 li span{
+        display: block;
+        line-height: 25px;
+    }
+    .mCon05List01Bottom{padding-top: 6%;}
+    
+    .mCon05List02{padding-top: 25%;}
+    .mCon05List02 h2{font-weight: 400;}
+    .mCon05List02 h2 span{
+        display: block;
+        font-weight: 700
+    }
+    .mCon05List02 li p{line-height: 25px;}
+    .mCon05Txt{text-align: center;}
+    .mCon05Txt::before{
+        content: "";
+        display: block;
+        margin: 5% auto;
+        width: 7px;
+        height: 250px;
+        background: #000;
+    }
+    .mCon05Txt span{display: block;}
+    .mMoreBtn{
+        margin: 8% auto;
+        width: 280px;
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #333;
+        border-radius: 30px;
+        text-align: center;
+    }
+    .mMoreBtn a{
+        font-size: 14px;
+        font-weight: 700;
+        width: 100%;
+        display: inline-block;
+    }
+    
+    
+    
+    /*컨텐츠06*/
+    .mCon06{
+        padding-top: 35%;
+        text-align: center;
+        font-family: "SANDOL";
+        display: block;
+    }
+
+    .mCon06Wrap h2{
+        font-size: 45px;
+        font-weight: 900;
+    }
+    .mCon06Wrap p{
+        padding-top: 5%;
+        padding-bottom: 13%;
+    }
+
+    .mCon06Icon img{
+        margin: 0 30px;
+        width: 60px;
+    }
+    .mCon06Icon span{
+        display: block;
+        padding-top: 15%;
+    }
+    .mAppstoreIcon{display: inline-block;}
+    .mGooglestoreIcon{display: inline-block;}
+    .mFinish{
+        font-family: "NotoSerif";
+        line-height: 34px;
+        padding: 30% 0;
+        color: #717171;
+    }
+    .mFinish p span{font-weight: 700;}
+    
+    
+    
+    
+    
+    
+    
+    /*푸터*/
+    
+   #footer{
+        font-size: 14px;
+        padding: 5% 0;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    #footer h3{
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 5%;
+    }
+    #footer h3 img{
+        width: 90px;
+        display: inline-block;
+    }
+    .fTxt span{display: block;}
+    .copy{padding-top: 10px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
